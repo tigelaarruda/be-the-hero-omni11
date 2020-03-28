@@ -35,7 +35,7 @@ export default function NewIncident(){
                 }
             });
 
-            //alert('Caso cadastrado com sucesso!')
+            alert('Caso cadastrado com sucesso!')
             history.push('/profile');
         } catch (err) {
 
